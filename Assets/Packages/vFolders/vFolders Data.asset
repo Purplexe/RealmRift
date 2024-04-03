@@ -24,6 +24,7 @@ MonoBehaviour:
     - c7b1673e2fd29ef4085e74aadcb33699
     - 3b39126c90cee6b4fabcabf86217261e
     - 881c59ca1c617324ca5a921b9a21b858
+    - 64a4500b5b6357149b33bb463f9d35f8
     values:
     - guid: 00000000000000001000000000000000
       iColor: 0
@@ -74,4 +75,9 @@ MonoBehaviour:
       iColor: 1
       autoIcon: 
       customIcon: PrefabModel Icon
+      autoIconDirty: 0
+    - guid: 64a4500b5b6357149b33bb463f9d35f8
+      iColor: 4
+      autoIcon: cs Script Icon
+      customIcon: cs Script Icon
       autoIconDirty: 0
