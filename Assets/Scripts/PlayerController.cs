@@ -6,10 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D rb;
-    private Vector2 moveInput;
     public Vector2 lastMove;
-        
 
+    private Vector2 moveInput;
+    private float pHealth;
+    private float pMana;
+    private float pArmor;
+    private float pSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -24,25 +27,7 @@ public class PlayerController : MonoBehaviour
 
         Move();
 
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            Interact();
-        }
-
-        void Interact()
-        {
-            var facingDir = new Vector3(lastMove.x, lastMove.y);
-            var interactPos = transform.position + facingDir;
-
-            Debug.DrawLine(transform.position, interactPos, Color.red, 3f, false);
-
-            var collider = Physics2D.OverlapCircle(interactPos, 0.2f);
-            if (collider != null)
-            {
-                Debug.Log("There is an NPC here!");
-            }
-        }
-
+        
     }
     void Move()
     {

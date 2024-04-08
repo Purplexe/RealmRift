@@ -2,11 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface Interactable
+public interface Talkable
 {
-
-    public void Interact();
-    
-
-    
+    public void Talk();
 }
