@@ -9,10 +9,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 lastMove;
 
     private Vector2 moveInput;
-    private float pHealth;
-    private float pMana;
-    private float pArmor;
-    private float pSpeed;
+   
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +33,6 @@ public class PlayerController : MonoBehaviour
         moveInput.y = Input.GetAxisRaw("Vertical");
         moveInput.Normalize();
         rb.velocity = moveInput * moveSpeed;
-        
     }
     
 }
