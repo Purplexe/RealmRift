@@ -7,6 +7,13 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance = null;
 
+    public float maxHealth;
+    public float currentHealth;
+    public float force;
+    public float armor;
+    public float fortitude;
+
+
     private void Awake()
     {
         if (instance == null)
@@ -16,15 +23,5 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
