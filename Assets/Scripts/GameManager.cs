@@ -1,15 +1,19 @@
-//Zach Rhodes | 4/25/2024 | Game Manager Script
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance = null;
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     //Singleton Initiation
+=======
+>>>>>>> parent of d09368e (ResolvingMerge)
+=======
+>>>>>>> parent of d09368e (ResolvingMerge)
 
     private void Awake()
     {
@@ -20,13 +24,34 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
     public void InitiateFight()
+=======
+    // Start is called before the first frame update
+    void Start()
+>>>>>>> parent of d09368e (ResolvingMerge)
+=======
+    // Start is called before the first frame update
+    void Start()
+>>>>>>> parent of d09368e (ResolvingMerge)
     {
-        Debug.Log("Fight Started!");
-        SceneManager.LoadScene("BattleStage");
+        
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> parent of d09368e (ResolvingMerge)
+=======
+>>>>>>> parent of d09368e (ResolvingMerge)
 }

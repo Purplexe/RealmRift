@@ -1,4 +1,3 @@
-////Zach Rhodes | 4/25/2024 | NPC Starting Script
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,10 +7,6 @@ public class Interactable : MonoBehaviour
     public Dialogue dialogue;
     public GameObject dialoguePanel;
     public GameObject dialogueSymbol;
-    public bool fightable;
-  
-
-
 
     private bool playerClose;
 
@@ -31,7 +26,7 @@ public class Interactable : MonoBehaviour
     }
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, fightable);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
