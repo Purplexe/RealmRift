@@ -30966,6 +30966,7 @@ MonoBehaviour:
     - Please Save Her.
   dialoguePanel: {fileID: 44725429}
   dialogueSymbol: {fileID: 1092956067}
+  fightable: 0
 --- !u!61 &795265969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34512,6 +34513,7 @@ MonoBehaviour:
     - Hello Hero.
   dialoguePanel: {fileID: 44725429}
   dialogueSymbol: {fileID: 1142863378}
+  fightable: 1
 --- !u!61 &1998455351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34562,7 +34564,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 7.5, y: 7}
   m_EdgeRadius: 0
 --- !u!212 &1998455353
 SpriteRenderer:
