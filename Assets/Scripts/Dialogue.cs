@@ -1,3 +1,4 @@
+//Zach Rhodes | 4/25/2024 | Scriptable Object for Dialogue
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
