@@ -11,8 +11,6 @@ public class Interactable : MonoBehaviour
     public bool fightable;
   
 
-
-
     private bool playerClose;
 
     private void Update()
