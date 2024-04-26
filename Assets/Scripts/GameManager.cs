@@ -10,8 +10,11 @@ public class GameManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     //Singleton Initiation
+=======
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
 >>>>>>> parent of d09368e (ResolvingMerge)
 =======
@@ -34,10 +37,15 @@ public class GameManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
     public void InitiateFight()
+=======
+    // Start is called before the first frame update
+    void Start()
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
     // Start is called before the first frame update
     void Start()
@@ -67,7 +75,10 @@ public class GameManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
 >>>>>>> parent of d09368e (ResolvingMerge)
 =======

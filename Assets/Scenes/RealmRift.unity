@@ -30545,6 +30545,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_margin: {x: 0, y: 0, z: -346.35126, w: 0}
 =======
   m_margin: {x: 0, y: 0, z: -173.47667, w: 0}
@@ -30552,6 +30553,9 @@ MonoBehaviour:
 =======
   m_margin: {x: 0, y: 0, z: -173.47667, w: 0}
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+=======
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
   m_margin: {x: 0, y: 0, z: 0, w: 0}
 >>>>>>> parent of d09368e (ResolvingMerge)
@@ -34539,6 +34543,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Hello Hero~.
     - I'm taking to this body nicely, however it's taking a while for my power to
       aclimate.
@@ -34555,6 +34560,9 @@ MonoBehaviour:
     - I'm still aclimating to this body, so forgive me if I'm a bit slow at first.
     - 'I hope you prove as much of a challenge as you did my predecessors. '
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+=======
+    - Hello Hero.
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
     - Hello Hero.
 >>>>>>> parent of d09368e (ResolvingMerge)
@@ -34625,6 +34633,7 @@ BoxCollider2D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 7, y: 7}
 =======
   m_Size: {x: 6, y: 6}
@@ -34632,6 +34641,9 @@ BoxCollider2D:
 =======
   m_Size: {x: 6, y: 6}
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+=======
+  m_Size: {x: 4, y: 4}
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
   m_Size: {x: 4, y: 4}
 >>>>>>> parent of d09368e (ResolvingMerge)
@@ -34692,6 +34704,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 1827577836, guid: 433727bc8a2e1a04c9e5a2cb21d3a5bf, type: 3}
 =======
   m_Sprite: {fileID: 659262023, guid: a560ae11061ad6741b130c0a585c93ce, type: 3}
@@ -34699,6 +34712,9 @@ SpriteRenderer:
 =======
   m_Sprite: {fileID: 659262023, guid: a560ae11061ad6741b130c0a585c93ce, type: 3}
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+=======
+  m_Sprite: {fileID: -1784383216, guid: 433727bc8a2e1a04c9e5a2cb21d3a5bf, type: 3}
+>>>>>>> parent of d09368e (ResolvingMerge)
 =======
   m_Sprite: {fileID: -1784383216, guid: 433727bc8a2e1a04c9e5a2cb21d3a5bf, type: 3}
 >>>>>>> parent of d09368e (ResolvingMerge)
