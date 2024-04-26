@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
 
 
-
+    //Singleton Startup
     private void Awake()
     {
         if (instance == null)
@@ -21,8 +21,8 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-
-
+   
+    //If NPC is fightable, fight!
     public void InitiateFight()
     {
         Debug.Log("Fight Started!");

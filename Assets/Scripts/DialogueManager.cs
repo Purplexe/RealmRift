@@ -17,12 +17,13 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     
 
-
+    //Initializing Sentences
     void Start()
     {
         sentences = new Queue<string>();
     }
 
+    //Starting dialogue and seeing if NPC is fightable
     public void StartDialogue(Dialogue dialogue, bool fightable)
     {
         isFightable = fightable;
@@ -38,11 +39,13 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    //Queue next sentence when F is pressed.
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && isTalking)
             DisplayNextSentence();
     }
+    //Next Sentence
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0) 
@@ -56,6 +59,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = sentence;
 
     }
+    //Ending Dialogue/Starting Combat
     void EndDialogue()
     {
         Debug.Log("All done");

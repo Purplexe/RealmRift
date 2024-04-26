@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Entrance.unity
+    guid: 76153b31cf1a57842b69506acde94f83
+  - enabled: 1
     path: Assets/Scenes/RealmRift.unity
     guid: 9c544abc0b5914d4c9bcd55cef9f238b
   - enabled: 1
