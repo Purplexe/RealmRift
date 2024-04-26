@@ -8,21 +8,9 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance = null;
-<<<<<<< HEAD
+
     //Singleton Initiation
-=======
 
-    public float maxHealth;
-    public float currentHealth;
-    public float force;
-    public float armor;
-    public float fortitude;
-
-
-<<<<<<< HEAD
->>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
-=======
->>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
     private void Awake()
     {
         if (instance == null)
@@ -32,8 +20,7 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
     public void InitiateFight()
@@ -41,10 +28,5 @@ public class GameManager : MonoBehaviour
         Debug.Log("Fight Started!");
         SceneManager.LoadScene("BattleStage");
     }
-=======
-  
->>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
-=======
-  
->>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+
 }
