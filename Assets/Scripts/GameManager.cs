@@ -6,32 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
+    //Singleton Initiation
     public static GameManager instance = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-    //Singleton Initiation
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-    //Singleton Initiation
 
-    public float maxHealth;
-    public float currentHealth;
-    public float force;
-    public float armor;
-    public float fortitude;
 
     private void Awake()
     {
@@ -42,40 +20,7 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-
-
-    public void InitiateFight()
-=======
-    // Start is called before the first frame update
-    void Start()
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
-    // Start is called before the first frame update
-    void Start()
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
-    // Start is called before the first frame update
-    void Start()
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
-    // Start is called before the first frame update
-    void Start()
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
-    // Start is called before the first frame update
-    void Start()
->>>>>>> parent of d09368e (ResolvingMerge)
-    {
-        
-    }
-=======
->>>>>>> Fixing-stuff
 
 
     public void InitiateFight()
@@ -83,21 +28,5 @@ public class GameManager : MonoBehaviour
         Debug.Log("Fight Started!");
         SceneManager.LoadScene("BattleStage");
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-=======
->>>>>>> parent of d09368e (ResolvingMerge)
-  
 }
