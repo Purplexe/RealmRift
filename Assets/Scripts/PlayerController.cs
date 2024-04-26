@@ -1,3 +1,4 @@
+//Zach Rhodes | 4/25/2024 | Player Script
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -32,12 +33,4 @@ public class PlayerController : MonoBehaviour
         //Applying Movement
         rb.velocity = moveInput * moveSpeed;
     }
-
-    public void Testing()
-    {
-        Debug.Log("THE BUTTON TEST WORKS!!!!");
-    }
-   
-
-
 }

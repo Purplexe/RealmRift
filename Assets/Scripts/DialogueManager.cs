@@ -1,3 +1,4 @@
+//Zach Rhodes | 4/25/2024 | All things dialogue
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,9 +11,11 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText;
     public GameObject dialogePanel;
     public bool isTalking;
+    private bool isFightable;
 
 
     private Queue<string> sentences;
+    
 
 
     void Start()
@@ -20,11 +23,13 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, bool fightable)
     {
+        isFightable = fightable;
          isTalking = true;
         nameText.text = dialogue.name;
         sentences.Clear();
+        
         
         foreach (string sentence in dialogue.sentences)
         {
@@ -55,6 +60,11 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("All done");
         isTalking = false;
+        if (isFightable)
+            GameManager.instance.InitiateFight();
+
+        
+
     }
 
 }

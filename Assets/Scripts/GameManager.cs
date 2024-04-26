@@ -1,6 +1,8 @@
+//Zach Rhodes | 4/25/2024 | Game Manager Script
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +25,13 @@ public class GameManager : MonoBehaviour
 >>>>>>> parent of d09368e (ResolvingMerge)
 =======
 >>>>>>> parent of d09368e (ResolvingMerge)
+    //Singleton Initiation
+
+    public float maxHealth;
+    public float currentHealth;
+    public float force;
+    public float armor;
+    public float fortitude;
 
     private void Awake()
     {
@@ -65,11 +74,14 @@ public class GameManager : MonoBehaviour
     {
         
     }
+=======
+>>>>>>> Fixing-stuff
 
-    // Update is called once per frame
-    void Update()
+
+    public void InitiateFight()
     {
-        
+        Debug.Log("Fight Started!");
+        SceneManager.LoadScene("BattleStage");
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
