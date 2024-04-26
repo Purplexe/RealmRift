@@ -30507,7 +30507,11 @@ MonoBehaviour:
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_margin: {x: 0, y: 0, z: -346.35126, w: 0}
+=======
+  m_margin: {x: 0, y: 0, z: -173.47667, w: 0}
+>>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
 =======
   m_margin: {x: 0, y: 0, z: -173.47667, w: 0}
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
@@ -34570,12 +34574,18 @@ MonoBehaviour:
     name: Possessed Woman
     sentences:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Hello Hero~.
     - I'm taking to this body nicely, however it's taking a while for my power to
       aclimate.
     - That being said, I hope you won't be as much of a bore as those priests who've
       came before you.
     - Good luck.
+=======
+    - "So you're here hero.\t"
+    - I'm still aclimating to this body, so forgive me if I'm a bit slow at first.
+    - 'I hope you prove as much of a challenge as you did my predecessors. '
+>>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
 =======
     - "So you're here hero.\t"
     - I'm still aclimating to this body, so forgive me if I'm a bit slow at first.
@@ -34640,7 +34650,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 7, y: 7}
+=======
+  m_Size: {x: 6, y: 6}
+>>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
 =======
   m_Size: {x: 6, y: 6}
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
@@ -34687,7 +34701,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 1827577836, guid: 433727bc8a2e1a04c9e5a2cb21d3a5bf, type: 3}
+=======
+  m_Sprite: {fileID: 659262023, guid: a560ae11061ad6741b130c0a585c93ce, type: 3}
+>>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
 =======
   m_Sprite: {fileID: 659262023, guid: a560ae11061ad6741b130c0a585c93ce, type: 3}
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360

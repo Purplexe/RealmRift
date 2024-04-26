@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     public float fortitude;
 
 
+<<<<<<< HEAD
+>>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+=======
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
     private void Awake()
     {
@@ -30,6 +33,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     public void InitiateFight()
@@ -39,6 +43,8 @@ public class GameManager : MonoBehaviour
     }
 =======
   
+>>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
+=======
   
 >>>>>>> dc3bdec1b19708d8415ec4fda82c62a6c0be7360
 }
